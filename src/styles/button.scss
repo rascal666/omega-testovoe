@@ -1,0 +1,16 @@
+@import "variables";
+
+.button{
+  width: fit-content;
+  padding: 16px 40px;
+  font-size: 16px;
+  border: 1px solid $base-color;
+  background: none;
+  border-radius: 5px;
+  &:hover{
+    cursor:pointer;
+    background: $base-color;
+    color: azure;
+    transition-duration: .3s;
+  }
+}
